@@ -89,5 +89,7 @@ while True:
     if  order_name == ame_order and input_money < ch_price:
         add_num = ch_price - input_money
         print(f"{input_money}원이 들어왔습니다. {add_num}원 만큼 추가로 투입해주세요")   
+    
+    
 
 
